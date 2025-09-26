@@ -11,6 +11,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\assets\index-dP49WVfD.js" />
+    <Content Remove="wwwroot\assets\index-yYmlrMaT.css" />
+    <Content Remove="wwwroot\favicon.ico" />
+    <Content Remove="wwwroot\index.html" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="BCrypt" Version="1.0.0" />
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="EkmTech.AuthLibrary.AspNetCore" Version="1.0.3" />
@@ -37,6 +44,13 @@
     <ProjectReference Include="..\portal-dos-agentes.client\portal-dos-agentes.client.esproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\index-dP49WVfD.js" />
+    <None Include="wwwroot\assets\index-yYmlrMaT.css" />
+    <None Include="wwwroot\favicon.ico" />
+    <None Include="wwwroot\index.html" />
   </ItemGroup>
 
 </Project>
