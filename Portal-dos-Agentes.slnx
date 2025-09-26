@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="portal-dos-agentes.client/portal-dos-agentes.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="Portal-dos-Agentes.Server/Portal-dos-Agentes.Server.csproj" />
+</Solution>

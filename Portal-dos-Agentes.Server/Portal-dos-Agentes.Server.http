@@ -1,0 +1,6 @@
+@Portal_dos_Agentes.Server_HostAddress = http://localhost:5044
+
+GET {{Portal_dos_Agentes.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
